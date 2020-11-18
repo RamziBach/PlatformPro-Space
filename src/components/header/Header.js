@@ -89,30 +89,24 @@ const Header = () => {
           className="mobile-menu animate__animated animate__fadeIn animate__faster"
         >
           <ul>
-            <li>
-              <button
-                className="mobile-menu_btn"
-                onClick={aboutSection.onClick}
-                selected={aboutSection.selected}
-              >
+            <li onClick={aboutSection.onClick} selected={aboutSection.selected}>
+              <button onClick={handleMobileMenu} className="mobile-menu_btn">
                 about
               </button>
             </li>
-            <li>
-              <button
-                className="mobile-menu_btn"
-                onClick={builderSection.onClick}
-                selected={builderSection.selected}
-              >
+            <li
+              onClick={builderSection.onClick}
+              selected={builderSection.selected}
+            >
+              <button onClick={handleMobileMenu} className="mobile-menu_btn">
                 builder
               </button>
             </li>
-            <li>
-              <button
-                className="mobile-menu_btn"
-                onClick={featuresSection.onClick}
-                selected={featuresSection.selected}
-              >
+            <li
+              onClick={featuresSection.onClick}
+              selected={featuresSection.selected}
+            >
+              <button onClick={handleMobileMenu} className="mobile-menu_btn">
                 features
               </button>
             </li>
