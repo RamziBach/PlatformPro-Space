@@ -7,6 +7,7 @@ import logo from '../../images/light-logo_sm.svg';
 
 const Footer = () => {
   const aboutSection = useScrollSection('about');
+  const builderSection = useScrollSection('builder');
   const featuresSection = useScrollSection('features');
 
   return (
@@ -26,7 +27,13 @@ const Footer = () => {
               </button>
             </li>
             <li>
-              <button className="footer-a_menu">BUILDER</button>
+              <button
+                className="footer-a_menu"
+                onClick={builderSection.onClick}
+                selected={builderSection.selected}
+              >
+                BUILDER
+              </button>
             </li>
             <li>
               <button

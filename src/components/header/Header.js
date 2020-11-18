@@ -6,6 +6,7 @@ import 'animate.css';
 const Header = () => {
   // const homeSection = useScrollSection('home');
   const aboutSection = useScrollSection('about');
+  const builderSection = useScrollSection('builder');
   const featuresSection = useScrollSection('features');
   const [isOpen, setIsOpen] = useState(false);
 
@@ -39,7 +40,13 @@ const Header = () => {
                   </button>
                 </li>
                 <li>
-                  <button className="header-ul_btn">builder</button>
+                  <button
+                    className="header-ul_btn"
+                    onClick={builderSection.onClick}
+                    selected={builderSection.selected}
+                  >
+                    builder
+                  </button>
                 </li>
                 <li>
                   <button
@@ -83,13 +90,31 @@ const Header = () => {
         >
           <ul>
             <li>
-              <button className="mobile-menu_btn">about</button>
+              <button
+                className="mobile-menu_btn"
+                onClick={aboutSection.onClick}
+                selected={aboutSection.selected}
+              >
+                about
+              </button>
             </li>
             <li>
-              <button className="mobile-menu_btn">builder</button>
+              <button
+                className="mobile-menu_btn"
+                onClick={builderSection.onClick}
+                selected={builderSection.selected}
+              >
+                builder
+              </button>
             </li>
             <li>
-              <button className="mobile-menu_btn">features</button>
+              <button
+                className="mobile-menu_btn"
+                onClick={featuresSection.onClick}
+                selected={featuresSection.selected}
+              >
+                features
+              </button>
             </li>
             <li>
               <button className="mobile-menu_btn">blog</button>
