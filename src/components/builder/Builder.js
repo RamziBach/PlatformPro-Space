@@ -6,9 +6,9 @@ import builder from '../../images/buildergif.gif';
 const Builder = props => {
   return (
     <Section id="builder">
-      <div className="builder section-spacing">
+      <div className="builder">
         <div className="md-container">
-          <h2 className="builder-title md_section-spacing">website builder</h2>
+          <h2 className="builder-title">website builder</h2>
           <div className="builder1-parent">
             <div className="builder1-child_container sticky">
               <div className="builder1-child_container1">

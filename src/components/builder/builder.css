@@ -1,6 +1,7 @@
 .builder {
   /* background-color: var(--clr-darkBg); */
   color: var(--clr-light);
+  margin-bottom: 20rem;
   /* transition: background-color 1s; */
 }
 
@@ -16,6 +17,7 @@
   text-transform: capitalize;
   /* padding-top: 80px; */
   margin-top: 0;
+  margin-bottom: 10rem;
 }
 
 .builder1-parent {
@@ -87,6 +89,16 @@
   .builder2,
   .builder3 {
     width: 40em;
+  }
+}
+
+@media (max-width: 1300px) {
+  .builder {
+    margin-bottom: 10rem;
+  }
+
+  .builder-title {
+    margin-bottom: 5rem;
   }
 }
 

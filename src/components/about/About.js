@@ -4,7 +4,7 @@ import { Section } from 'react-scroll-section';
 const About = () => {
   return (
     <Section id="about">
-      <div className="lg-container section-spacing">
+      <div className="lg-container">
         <div className="about">
           <h2 className="about-title">about</h2>
           <h4 className="about-subtitle">

@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20rem;
 }
 
 .about-title {
@@ -26,6 +27,12 @@
 
 .about-p:last-child {
   margin-bottom: 2em;
+}
+
+@media (max-width: 1300px) {
+  .about {
+    margin-bottom: 10rem;
+  }
 }
 
 @media (max-width: 1500px) {

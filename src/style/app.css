@@ -214,6 +214,12 @@ p {
   margin-bottom: 20rem;
 }
 
+/* @media (max-width: 1300px) {
+  .section-spacing {
+    margin-bottom: 10rem;
+  }
+} */
+
 .md_section-spacing {
   margin-bottom: 10rem;
 }
