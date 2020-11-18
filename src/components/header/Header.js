@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useScrollSection, Section } from 'react-scroll-section';
 import 'animate.css';
-// import Headroom from 'react-headroom';
 
 const Header = () => {
   // const homeSection = useScrollSection('home');
@@ -14,7 +13,6 @@ const Header = () => {
 
   return (
     <Section id="home">
-      {/* <Headroom> */}
       <header className="header">
         <div className="lg-container">
           <div className="header-parent">
@@ -119,7 +117,6 @@ const Header = () => {
           </ul>
         </div>
       </header>
-      {/* </Headroom> */}
     </Section>
   );
 };
