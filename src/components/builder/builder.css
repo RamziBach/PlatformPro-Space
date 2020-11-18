@@ -23,6 +23,8 @@
 .builder1-parent {
   display: flex;
   justify-content: space-between;
+  max-width: 100em;
+  margin: 0 auto;
   /* padding-bottom: 5rem; */
   /* border-bottom: 1px groove var(--clr-light); */
 }
