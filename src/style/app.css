@@ -1,0 +1,235 @@
+@import './custom-animations.css';
+@import '../components/backgrounds/backgrounds.css';
+@import '../components/header/header.css';
+@import '../components/landing/landing.css';
+@import '../components/about/about.css';
+@import '../components/builder/builder.css';
+@import '../components/features/features.css';
+@import '../components/features/more-features.css';
+@import '../components/cta/cta.css';
+@import '../components/footer/footer.css';
+@import '../components/footer/interstellar/landing-interstellar.css';
+
+:root {
+  --clr-dark: #101820;
+  --clr-light: #eef2f6;
+  --clr-accent: #6bf4ea;
+  --clr-bg: #3f1b75;
+  --clr-darkBg: #16092a;
+
+  --ff-nunito: 'Nunito', sans-serif;
+
+  --fs-smLogo: 3em;
+  --fs-logo: 5em;
+  --fs-img: 18em;
+  --fs-h1: 4.5rem;
+  --fs-h2: 3.5rem;
+  --fs-h3: 2.3rem;
+  --fs-h4: 1.5rem;
+  --fs-h5: 1.125rem;
+  --fs-body: 1rem;
+  --fs-small: 0.9rem;
+}
+
+@media (max-width: 1600px) {
+  :root {
+    --fs-logo: 4em;
+    --fs-img: 10em;
+    --fs-h1: 3rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.25rem;
+    --fs-h4: 1rem;
+    --fs-h5: 0.975rem;
+    --fs-body: 0.875rem;
+    --fs-small: 0.775rem;
+  }
+}
+
+@media (max-width: 475px) {
+  :root {
+    --fs-logo: 3.8em;
+    --fs-img: 9.8em;
+    --fs-h1: 2rem;
+    --fs-h2: 1.8rem;
+    --fs-h3: 1rem;
+    --fs-h4: 0.8rem;
+    --fs-h5: 0.775rem;
+    --fs-body: 0.675rem;
+    --fs-small: 0.575rem;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --fs-h2: 1.4rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: var(--ff-nunito);
+  font-size: var(--fs-body);
+  background-color: var(--clr-bg);
+  color: var(--clr-light);
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  font-family: var(--ff-nunito);
+  text-transform: capitalize;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  font-family: var(--ff-nunito);
+  text-transform: capitalize;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-family: var(--ff-nunito);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  font-family: var(--ff-nunito);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-family: var(--ff-nunito);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+  font-family: var(--ff-nunito);
+}
+
+h5 {
+  font-size: var(--fs-h5);
+  font-family: var(--ff-nunito);
+}
+
+p {
+  word-spacing: 1.4px;
+  font-family: var(--ff-nunito);
+  font-weight: 400;
+}
+
+.btn-bg {
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1em 2.25em;
+  color: var(--clr-bg);
+  background-color: var(--clr-accent);
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.btn-bg:hover,
+.btn-bg:focus {
+  background-color: var(--clr-light);
+}
+
+.btn-border {
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.8em 2.25em;
+  color: var(--clr-light);
+  background-color: transparent;
+  border: 3px solid var(--clr-accent);
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.btn-border:hover,
+.btn-border:focus {
+  background-color: rgba(107, 244, 234, 0.2);
+}
+
+.btn {
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--clr-light);
+  background-color: transparent;
+}
+
+.lg-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.md-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sm-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.lg_section-spacing {
+  margin-bottom: 25rem;
+}
+
+.section-spacing {
+  margin-bottom: 20rem;
+}
+
+.md_section-spacing {
+  margin-bottom: 10rem;
+}
+
+.smMD_section-spacing {
+  margin-bottom: 7.5rem;
+}
+
+.sm_section-spacing {
+  margin-bottom: 5rem;
+}
+
+.smLogo {
+  width: var(--fs-smLogo);
+}
+
+.logo {
+  width: var(--fs-logo);
+}

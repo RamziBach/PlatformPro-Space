@@ -1,0 +1,320 @@
+.bg-planet1 {
+  position: absolute;
+  top: -30em;
+  right: 0;
+  width: 70em;
+  height: 70em;
+  background-image: url('../../images/planet1.svg');
+  background-repeat: no-repeat;
+  background-position: left 49em bottom;
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.bg-stars {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.7;
+}
+
+.bg-gas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/gas.svg');
+  background-repeat: no-repeat;
+  background-position: left 15em bottom;
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bg-stars2 {
+  position: absolute;
+  top: 40em;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars2.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.4;
+  transform: scaleX(-1);
+}
+
+.bg-sm-planet {
+  position: absolute;
+  top: 50em;
+  left: 5em;
+  width: 20em;
+  height: 20em;
+  background-image: url('../../images/sm-planet.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: 1;
+  /* border: 10px solid black; */
+  /* opacity: 0.3; */
+}
+
+.bg-rocket {
+  position: absolute;
+  top: 510em;
+  left: 0;
+  width: 25em;
+  height: 25em;
+  background-image: url('../../images/rockett.svg');
+  background-repeat: no-repeat;
+  background-position: right 50px bottom;
+  background-size: 100% 100%;
+  z-index: 1;
+  /* border: 10px solid black; */
+  /* opacity: 0.3; */
+}
+
+.bg-stars3 {
+  position: absolute;
+  top: 250em;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars2.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.4;
+  /* border: 1px solid black; */
+  /* transform: scaleX(-1); */
+}
+
+.bg-gas2 {
+  position: absolute;
+  top: 350em;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/gas2.svg');
+  background-repeat: no-repeat;
+  background-position: left 15em bottom;
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+  /* border: 1px solid black; */
+}
+
+.bg-stars4 {
+  position: absolute;
+  top: 110em;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.7;
+  /* transform: scaleY(-1); */
+}
+
+.bg-stars5 {
+  position: absolute;
+  top: 200em;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.7;
+  transform: scaleX(-1);
+}
+
+.bg-stars6 {
+  position: absolute;
+  top: 170em;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/stars2.svg');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 100%;
+  z-index: -2;
+  opacity: 0.4;
+  /* border: 1px solid black; */
+  /* transform: scaleX(-1); */
+}
+
+@media (max-width: 1730px) {
+  .bg-rocket {
+    top: 485em;
+  }
+}
+
+@media (max-width: 1570px) {
+  .bg-rocket {
+    width: 20em;
+    height: 20em;
+  }
+}
+
+@media (max-width: 1350px) {
+  .bg-rocket {
+    top: 530em;
+  }
+
+  .bg-stars3 {
+    top: 270em;
+  }
+
+  .bg-gas2 {
+    top: 370em;
+  }
+}
+
+@media (max-width: 1300px) {
+  .bg-rocket {
+    top: 560em;
+  }
+
+  .bg-stars3 {
+    top: 280em;
+  }
+
+  .bg-gas2 {
+    top: 390em;
+  }
+}
+
+@media (max-width: 1250px) {
+  .bg-sm-planet {
+    width: 15em;
+    height: 15em;
+  }
+
+  .bg-rocket {
+    top: 540em;
+  }
+
+  .bg-stars3 {
+    top: 270em;
+  }
+
+  .bg-gas2 {
+    top: 380em;
+  }
+}
+
+@media (max-width: 1025px) {
+  .bg-sm-planet {
+    width: 10em;
+    height: 10em;
+  }
+
+  .bg-rocket {
+    top: 610em;
+  }
+
+  .bg-stars3 {
+    top: 310em;
+  }
+
+  .bg-gas2 {
+    top: 440em;
+  }
+}
+
+@media (max-width: 860px) {
+  .bg-sm-planet {
+    top: 67em;
+    left: 1em;
+  }
+
+  .bg-rocket {
+    top: 620em;
+  }
+
+  .bg-stars3 {
+    top: 320em;
+  }
+
+  .bg-gas2 {
+    top: 445em;
+  }
+}
+
+@media (max-width: 765px) {
+  .bg-rocket {
+    width: 15em;
+    height: 15em;
+    top: 625em;
+  }
+
+  .bg-stars3 {
+    top: 330em;
+  }
+
+  .bg-gas2 {
+    top: 450em;
+  }
+}
+
+@media (max-width: 725px) {
+  .bg-rocket {
+    top: 630em;
+  }
+
+  .bg-stars3 {
+    top: 335em;
+  }
+
+  .bg-gas2 {
+    top: 460em;
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-sm-planet {
+    width: 7em;
+    height: 7em;
+  }
+
+  .bg-rocket {
+    top: 600em;
+  }
+
+  .bg-stars3 {
+    display: none;
+  }
+
+  .bg-gas2 {
+    display: none;
+  }
+}
+
+@media (max-width: 475px) {
+  .bg-sm-planet {
+    top: 75em;
+  }
+
+  .bg-rocket {
+    top: 680em;
+  }
+}

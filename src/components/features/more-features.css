@@ -1,0 +1,32 @@
+/* .information {
+  border-bottom: 1px solid #4e2191;
+} */
+
+.information-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 3em;
+}
+
+.information-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.information-child {
+  margin-bottom: 5em;
+}
+
+.information-h4 {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.information-p {
+  max-width: 20em;
+  font-size: var(--fs-h5);
+  opacity: 0.7;
+}

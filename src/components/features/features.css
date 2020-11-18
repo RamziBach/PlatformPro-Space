@@ -1,0 +1,149 @@
+.features-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 78em;
+  margin: 0 auto;
+}
+
+.features-child1 {
+  min-width: 33em;
+}
+
+.features-title {
+  margin-top: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.features-child1_container {
+  display: flex;
+  border-bottom: 1px solid var(--clr-light);
+  margin-bottom: 2rem;
+}
+
+.features-child1_container:last-child {
+  border-bottom: none;
+}
+
+.Collapsible {
+  margin: 1rem 0;
+}
+
+.Collapsible__trigger {
+  color: var(--clr-light);
+  position: relative;
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  user-select: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.Collapsible__trigger::before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: var(--fs-h4);
+  content: '\f106';
+  position: absolute;
+  left: -1.5em;
+  top: 0.3em;
+  display: block;
+  font-weight: 900;
+  transition: transform 300ms;
+}
+
+.isOpen::before {
+  transform: rotate(180deg);
+}
+
+.features-child1_p {
+  font-size: var(--fs-h5);
+  max-width: 30em;
+  margin: 2rem 0;
+  opacity: 0.7;
+}
+
+.features-cta {
+  margin-bottom: 2rem;
+}
+
+.features-arrow {
+  width: 1.5rem;
+}
+
+.features-arrow_btn {
+  padding: 1.75rem 2rem 1.75rem 0;
+  overflow: hidden;
+}
+
+.features-child2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-child2 svg {
+  width: 50em !important;
+  position: relative;
+  left: 100px;
+}
+
+@media (max-width: 1750px) {
+  .features-child2 svg {
+    width: 40em !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .features-parent {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .features-child2 svg {
+    left: 0;
+  }
+}
+
+@media (max-width: 565px) {
+  .features-child1 {
+    min-width: none;
+  }
+
+  .features-parent {
+    max-width: none;
+  }
+
+  .features-child2 svg {
+    width: 30em !important;
+  }
+}
+
+@media (max-width: 385px) {
+  .features-child1 {
+    min-width: 100% !important;
+  }
+
+  .features-child1_p {
+    width: 100%;
+  }
+
+  .Collapsible {
+    width: 100%;
+  }
+
+  .Collapsible__contentOuter {
+    width: 100%;
+  }
+
+  .Collapsible__contentInner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .features-child2 svg {
+    width: 25em !important;
+  }
+}
