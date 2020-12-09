@@ -1,0 +1,175 @@
+.footer {
+  height: 100vh;
+  background-image: url('../../images/footer-planet.svg');
+  background-repeat: no-repeat;
+  background-position: top 35em left 75em;
+}
+
+.footer2-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer2-child {
+  flex: 1;
+}
+
+.footer2-child1 {
+  margin: 0 0 0 20%;
+}
+
+.footer2-title {
+  margin-top: 0;
+  line-height: 1;
+}
+
+.footer2-child2 svg {
+  position: relative;
+  top: 15.5em;
+  right: 17em;
+  width: 52em !important;
+}
+
+@media (max-width: 1800px) {
+  .footer {
+    background-size: 60%;
+    background-position: top 36em left 70em;
+  }
+
+  .footer2-child2 svg {
+    top: 27em;
+    right: 14em;
+    width: 40em !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .footer2-title {
+    font-size: var(--fs-h2);
+  }
+
+  .footer2-child2 svg {
+    top: 27em;
+    right: 14em;
+    width: 50em !important;
+  }
+
+  .footer {
+    background-size: 60%;
+    background-position: top 49em left 63em;
+  }
+}
+
+@media (max-width: 1400px) {
+  .footer2-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer2-child2 svg {
+    top: 1em;
+    right: -40em;
+    width: 43em !important;
+  }
+
+  .footer2-child1 {
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 1165px) {
+  .footer {
+    background-size: 70%;
+    background-position: top 49em left 47em;
+  }
+
+  .footer2-child2 svg {
+    right: -30em;
+  }
+}
+
+@media (max-width: 1030px) {
+  .footer2-child2 {
+    width: 100%;
+  }
+
+  .footer2-child2 svg {
+    position: static;
+    float: right;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    background-size: 85%;
+    background-position: top 46em left 37em;
+  }
+}
+
+@media (max-width: 870px) {
+  .footer {
+    background-size: 85%;
+    background-position: top 46em left 30em;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    background-size: 85%;
+    background-position: top 46em left 30em;
+  }
+
+  .footer2-child2 svg {
+    margin-top: 6em;
+    width: 40em !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    background-size: 85%;
+    background-position: top 50em left 23em;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-size: 100%;
+    background-position: top 50em left 18em;
+  }
+
+  .footer2-child2 svg {
+    margin-top: 14em;
+    width: 35em !important;
+  }
+
+  .footer2-title {
+    font-size: var(--fs-h3);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-size: 100%;
+    background-position: top 57em left 15em;
+  }
+
+  .footer2-child2 svg {
+    margin-top: 25em;
+    width: 35em !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .footer {
+    background-size: 100%;
+    background-position: top 75em left 15em;
+  }
+
+  .footer2-child2 svg {
+    margin-top: 40em;
+    width: 35em !important;
+  }
+}

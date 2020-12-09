@@ -6,15 +6,16 @@
 @import '../components/builder/builder.css';
 @import '../components/features/features.css';
 @import '../components/features/more-features.css';
-@import '../components/cta/cta.css';
-@import '../components/footer/footer.css';
-@import '../components/footer/interstellar/landing-interstellar.css';
+@import '../components/footer/footer2.css';
+/* @import '../components/cta/cta.css'; */
+/* @import '../components/footer/footer.css'; */
+/* @import '../components/footer/interstellar/landing-interstellar.css'; */
 
 :root {
   --clr-dark: #101820;
   --clr-light: #eef2f6;
   --clr-accent: #6bf4ea;
-  --clr-bg: #3f1b75;
+  --clr-bg: #240c46;
   --clr-darkBg: #16092a;
 
   --ff-nunito: 'Nunito', sans-serif;

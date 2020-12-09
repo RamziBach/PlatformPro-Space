@@ -9,8 +9,7 @@ import About from './about/About';
 import Builder from './builder/Builder';
 import Features from './features/Features';
 import MoreFeatures from './features/MoreFeatures';
-import Cta from './cta/Cta';
-import Footer from './footer/Footer';
+import Footer2 from './footer/Footer2';
 
 import '../style/app.css';
 
@@ -24,8 +23,7 @@ const App = () => {
         <Builder />
         <Features />
         <MoreFeatures />
-        <Cta />
-        <Footer />
+        <Footer2 />
       </Backgrounds>
     </ScrollingProvider>
   );

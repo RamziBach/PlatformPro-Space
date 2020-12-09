@@ -3,7 +3,7 @@ import React from 'react';
 const MoreFeatures = () => {
   return (
     <div className="information">
-      <div className="sm-container md_section-spacing">
+      <div className="sm-container">
         <h2 className="information-title sm_section-spacing">And more...</h2>
         <div className="information-parent">
           <div className="information-child">

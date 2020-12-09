@@ -1,3 +1,8 @@
+.backgrounds {
+  background-image: url('../../images/newstars.svg');
+  background-repeat: repeat;
+}
+
 .bg-planet1 {
   position: absolute;
   top: -30em;
@@ -12,53 +17,38 @@
   opacity: 0.3;
 }
 
-.bg-stars {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars.svg');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.7;
-}
-
 .bg-gas {
   position: absolute;
   top: 0;
   right: 0;
   width: 150%;
   height: 150%;
-  background-image: url('../../images/gas.svg');
+  background-image: url('../../images/newgas.svg');
   background-repeat: no-repeat;
-  background-position: left 15em bottom;
+  background-position: left 75em bottom 15em;
   background-size: 100% 100%;
   z-index: -1;
   opacity: 0.2;
 }
 
-.bg-stars2 {
+.bg-gas2 {
   position: absolute;
-  top: 40em;
+  top: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars2.svg');
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/newgas2.svg');
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left bottom 45em;
   background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.4;
-  transform: scaleX(-1);
+  z-index: -1;
+  opacity: 0.2;
 }
 
 .bg-sm-planet {
   position: absolute;
-  top: 50em;
-  left: 5em;
+  top: 52em;
+  left: -9em;
   width: 20em;
   height: 20em;
   background-image: url('../../images/sm-planet.svg');
@@ -66,148 +56,80 @@
   background-position: left bottom;
   background-size: 100% 100%;
   z-index: 1;
-  /* border: 10px solid black; */
-  /* opacity: 0.3; */
+  opacity: 0.6;
 }
 
-.bg-rocket {
+.bg-footer-planet2 {
   position: absolute;
-  top: 510em;
+  top: 396em;
   left: 0;
-  width: 25em;
-  height: 25em;
-  background-image: url('../../images/rockett.svg');
+  width: 20em;
+  height: 20em;
+  background-image: url('../../images/footer-planet2.svg');
   background-repeat: no-repeat;
-  background-position: right 50px bottom;
-  background-size: 100% 100%;
-  z-index: 1;
-  /* border: 10px solid black; */
-  /* opacity: 0.3; */
-}
-
-.bg-stars3 {
-  position: absolute;
-  top: 250em;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars2.svg');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.4;
-  /* border: 1px solid black; */
-  /* transform: scaleX(-1); */
-}
-
-.bg-gas2 {
-  position: absolute;
-  top: 350em;
-  right: 0;
-  width: 150%;
-  height: 150%;
-  background-image: url('../../images/gas2.svg');
-  background-repeat: no-repeat;
-  background-position: left 15em bottom;
+  background-position: right top;
   background-size: 100% 100%;
   z-index: -1;
-  opacity: 0.2;
-  /* border: 1px solid black; */
+  opacity: 1;
 }
 
-.bg-stars4 {
-  position: absolute;
-  top: 110em;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars.svg');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.7;
-  /* transform: scaleY(-1); */
+@media (max-width: 1845px) {
+  .bg-footer-planet2 {
+    top: 392em;
+  }
 }
 
-.bg-stars5 {
-  position: absolute;
-  top: 200em;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars.svg');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.7;
-  transform: scaleX(-1);
+@media (max-width: 1810px) {
+  .bg-footer-planet2 {
+    top: 410em;
+  }
 }
 
-.bg-stars6 {
-  position: absolute;
-  top: 170em;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../images/stars2.svg');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 100% 100%;
-  z-index: -2;
-  opacity: 0.4;
-  /* border: 1px solid black; */
-  /* transform: scaleX(-1); */
+@media (max-width: 1748px) {
+  .bg-footer-planet2 {
+    top: 404em;
+  }
 }
 
 @media (max-width: 1730px) {
-  .bg-rocket {
-    top: 480em;
-  }
-
-  .bg-stars3 {
-    top: 235em;
-  }
-
-  .bg-gas2 {
-    top: 330em;
+  .bg-footer-planet2 {
+    top: 376em;
   }
 }
 
-@media (max-width: 1570px) {
-  .bg-rocket {
-    width: 20em;
-    height: 20em;
+@media (max-width: 1600px) {
+  .bg-footer-planet2 {
+    top: 369em;
+  }
+}
+
+@media (max-width: 1569px) {
+  .bg-footer-planet2 {
+    top: 386em;
+  }
+}
+
+@media (max-width: 1500px) {
+  .bg-footer-planet2 {
+    top: 390em;
   }
 }
 
 @media (max-width: 1350px) {
-  .bg-rocket {
-    top: 530em;
-  }
-
-  .bg-stars3 {
-    top: 270em;
-  }
-
-  .bg-gas2 {
-    top: 370em;
+  .bg-footer-planet2 {
+    top: 412em;
   }
 }
 
 @media (max-width: 1300px) {
-  .bg-rocket {
-    top: 525em;
+  .bg-footer-planet2 {
+    top: 405em;
   }
+}
 
-  .bg-stars3 {
-    top: 260em;
-  }
-
-  .bg-gas2 {
-    top: 365em;
+@media (max-width: 1250px) {
+  .bg-footer-planet2 {
+    top: 395em;
   }
 }
 
@@ -216,113 +138,40 @@
     width: 15em;
     height: 15em;
   }
+}
 
-  .bg-rocket {
-    top: 505em;
-  }
-
-  .bg-stars3 {
-    top: 255em;
-  }
-
-  .bg-gas2 {
-    top: 350em;
+@media (max-width: 1024px) {
+  .bg-footer-planet2 {
+    top: 450em;
   }
 }
 
-@media (max-width: 1025px) {
-  .bg-sm-planet {
-    width: 10em;
-    height: 10em;
-  }
-
-  .bg-rocket {
-    top: 580em;
-  }
-
-  .bg-stars3 {
-    top: 295em;
-  }
-
-  .bg-gas2 {
-    top: 410em;
+@media (max-width: 720px) {
+  .bg-footer-planet2 {
+    top: 455em;
   }
 }
-
-@media (max-width: 860px) {
-  .bg-sm-planet {
-    top: 67em;
-    left: 1em;
-  }
-
-  .bg-rocket {
-    top: 585em;
-  }
-
-  .bg-stars3 {
-    top: 305em;
-  }
-
-  .bg-gas2 {
-    top: 415em;
-  }
-}
-
-@media (max-width: 765px) {
-  .bg-rocket {
-    width: 15em;
-    height: 15em;
-    top: 590em;
-  }
-
-  .bg-stars3 {
-    top: 305em;
-  }
-
-  .bg-gas2 {
-    top: 420em;
-  }
-}
-
-/* @media (max-width: 725px) {
-  .bg-rocket {
-    top: 590em;
-  }
-
-  .bg-stars3 {
-    top: 305em;
-  }
-
-  .bg-gas2 {
-    top: 420em;
-  }
-} */
 
 @media (max-width: 600px) {
-  .bg-sm-planet {
-    width: 7em;
-    height: 7em;
+  .bg-footer-planet2 {
+    top: 432em;
   }
+}
 
-  .bg-rocket {
-    top: 550em;
+@media (max-width: 565px) {
+  .bg-footer-planet2 {
+    top: 425em;
   }
+}
 
-  .bg-stars3 {
-    display: none;
-  }
-
-  .bg-gas2 {
-    display: none;
+@media (max-width: 521px) {
+  .bg-footer-planet2 {
+    top: 430em;
   }
 }
 
 @media (max-width: 475px) {
-  .bg-sm-planet {
-    top: 75em;
-  }
-
-  .bg-rocket {
-    top: 600em;
+  .bg-footer-planet2 {
+    top: 470em;
   }
 }
