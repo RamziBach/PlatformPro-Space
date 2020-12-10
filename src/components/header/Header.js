@@ -3,7 +3,6 @@ import { useScrollSection, Section } from 'react-scroll-section';
 import 'animate.css';
 
 const Header = () => {
-  // const homeSection = useScrollSection('home');
   const aboutSection = useScrollSection('about');
   const builderSection = useScrollSection('builder');
   const featuresSection = useScrollSection('features');
@@ -17,13 +16,7 @@ const Header = () => {
         <div className="lg-container">
           <div className="header-parent">
             <div className="header-child_title header-child1">
-              <h3
-                className="header-title"
-                // onClick={homeSection.onClick}
-                // selected={homeSection.selected}
-              >
-                PlatformPro
-              </h3>
+              <h3 className="header-title">PlatformPro</h3>
             </div>
             <div className="header-child_menu header-child2">
               <ul className="header-ul">
