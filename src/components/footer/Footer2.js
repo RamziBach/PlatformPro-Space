@@ -10,7 +10,7 @@ const Footer2 = () => {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: require('../../lottie/footer.json'),
+      animationData: require('../../lottie/footerFix.json'),
     });
   }, []);
 
