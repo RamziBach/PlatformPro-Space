@@ -20,10 +20,16 @@ const Footer2 = () => {
       <div className="footer2-parent">
         <div className="footer2-child footer2-child1">
           <h3 className="footer2-title">
-            Launch your own Platform, <br /> in less than 5 minutes, <br /> for
-            free!
+            To register for the beta, <br /> click button
           </h3>
-          <button className="btn-bg">open app</button>
+          <a
+            href="https://platformpro.tv/beta"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-bg"
+          >
+            Register
+          </a>
         </div>
         <div ref={container} className="footer2-child footer2-child2"></div>
       </div>
