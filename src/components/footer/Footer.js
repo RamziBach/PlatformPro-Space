@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 
-const Footer2 = () => {
+const Footer = () => {
   const container = useRef(null);
 
   useEffect(() => {
@@ -16,20 +16,21 @@ const Footer2 = () => {
 
   return (
     <footer className="footer">
-      <div className="bg-footer-planet2"></div>
-      <div className="footer2-parent">
-        <div className="footer2-child footer2-child1">
-          <h3 className="footer2-title">
-            To register for the beta, <br /> click button
-          </h3>
-          <a
-            href="https://platformpro.tv/beta"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-bg"
-          >
-            Register
-          </a>
+      <div className="footer-parent">
+        <div className="footer-child1">
+          <div>
+            <h2 className="footer-title">
+              Register, <br /> for the beta!
+            </h2>
+            <a
+              href="https://platformpro.tv/beta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-bg"
+            >
+              register to beta
+            </a>
+          </div>
           <div className="footer-socials-btn-container">
             <a
               href="https://discord.gg/pgYBg8n"
@@ -65,10 +66,10 @@ const Footer2 = () => {
             </a>
           </div>
         </div>
-        <div ref={container} className="footer2-child footer2-child2"></div>
+        <div className="footer-child2" ref={container}></div>
       </div>
     </footer>
   );
 };
 
-export default Footer2;
+export default Footer;
