@@ -16,12 +16,12 @@ const Backgrounds = props => {
       <div className="bg-planet1"></div>
       <div className="bg-gas"></div>
       <div className="bg-gas2"></div>
-      <div
+      {/* <div
         className="bg-sm-planet"
         // style={{
         //   transform: `translateY(${offSetY * 0.1}px)`,
         // }}
-      ></div>
+      ></div> */}
       {props.children}
     </div>
   );

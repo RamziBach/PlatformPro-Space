@@ -40,12 +40,26 @@
 }
 
 .footer2-child1 {
-  margin: 0 0 0 20%;
+  margin: 10em 0 0 15%;
 }
 
 .footer2-title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.3;
+}
+
+.footer-socials-btn-container {
+  margin-top: 20em;
+}
+
+.footer-socials-btn {
+  color: var(--clr-light);
+  font-size: var(--fs-h3);
+  margin: 0.5em;
+}
+
+.footer-socials-btn:first-child {
+  margin-left: 0;
 }
 
 .footer2-child2 svg {
