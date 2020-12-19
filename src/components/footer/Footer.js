@@ -23,7 +23,7 @@ const Footer = () => {
               Register, <br /> for the beta!
             </h2>
             <a
-              href="https://platformpro.tv/beta"
+              href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-bg"
