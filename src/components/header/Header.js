@@ -69,7 +69,7 @@ const Header = () => {
             <div className="header-child4">
               <span>
                 <button onClick={handleMobileMenu} className="ham">
-                  <i class="fas fa-bars"></i>
+                  <i className="fas fa-bars"></i>
                 </button>
               </span>
             </div>

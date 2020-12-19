@@ -45,6 +45,62 @@
   opacity: 0.2;
 }
 
+.bg-gas3 {
+  position: absolute;
+  top: 100em;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/newgas.svg');
+  background-repeat: no-repeat;
+  /* background-position: left bottom; */
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bg-gas4 {
+  position: absolute;
+  top: 100em;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/newgas2.svg');
+  background-repeat: no-repeat;
+  /* background-position: top left; */
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bg-gas5 {
+  position: absolute;
+  top: 260em;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/newgas.svg');
+  background-repeat: no-repeat;
+  /* background-position: left bottom; */
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bg-gas6 {
+  position: absolute;
+  top: 260em;
+  right: 0;
+  width: 150%;
+  height: 150%;
+  background-image: url('../../images/newgas2.svg');
+  background-repeat: no-repeat;
+  background-position: left 75em bottom 15em;
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
 .bg-sm-planet {
   position: absolute;
   top: 52em;
