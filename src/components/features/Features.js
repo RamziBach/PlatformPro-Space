@@ -52,7 +52,14 @@ const Features = props => {
                       pre-built themes to jumpstart your design and create a
                       beautiful site in minutes.
                     </p>
-                    <button className="btn-bg features-cta">start now</button>
+                    <a
+                      href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-bg features-cta"
+                    >
+                      start now
+                    </a>
                   </Collapsible>
                 </div>
               </div>
@@ -80,7 +87,14 @@ const Features = props => {
                       Websites you build on Platformpro will look stunning
                       anywhere your audience is, automatically.
                     </p>
-                    <button className="btn-bg features-cta">start now</button>
+                    <a
+                      href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-bg features-cta"
+                    >
+                      start now
+                    </a>
                   </Collapsible>
                 </div>
               </div>
@@ -108,7 +122,14 @@ const Features = props => {
                       content with data from every member of your audience, from
                       Twitter to Twitch.
                     </p>
-                    <button className="btn-bg features-cta">start now</button>
+                    <a
+                      href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-bg features-cta"
+                    >
+                      start now
+                    </a>
                   </Collapsible>
                 </div>
               </div>
@@ -136,7 +157,14 @@ const Features = props => {
                       your first million. Platformpro sets you up for success
                       with tools that scale to any size.
                     </p>
-                    <button className="btn-bg features-cta">start now</button>
+                    <a
+                      href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-bg features-cta"
+                    >
+                      start now
+                    </a>
                   </Collapsible>
                 </div>
               </div>

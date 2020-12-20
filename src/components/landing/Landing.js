@@ -29,7 +29,14 @@ const Landing = () => {
             help you, grow, manage and monetize your brand to make a living
             doing what you love.
           </p>
-          <button className="btn-border">get started</button>
+          <a
+            href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-border"
+          >
+            get started
+          </a>
         </div>
         <div className="landing-illustration" ref={container}></div>
       </div>

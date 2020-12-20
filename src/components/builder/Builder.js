@@ -33,7 +33,14 @@ const Builder = props => {
                   on services like twitch. Use your pre-made custom content on
                   your site easily for a seamless experience.
                 </p>
-                <button className="btn-bg">build now</button>
+                <a
+                  href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-bg"
+                >
+                  build now
+                </a>
               </div>
             </div>
             <div className="builder-img_container">

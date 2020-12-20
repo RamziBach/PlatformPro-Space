@@ -29,7 +29,14 @@ const About = () => {
               stand out, it’s time to join them.
             </p>
           </div>
-          <button className="btn-bg">get started</button>
+          <a
+            href="https://platformpro.surveysparrow.com/s/beta/tt-b7a7f5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-bg"
+          >
+            get started
+          </a>
         </div>
       </div>
     </Section>
