@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import footerPlanet from '../../images/footer-bg.svg';
+import footerPlanet2 from '../../images/footer-planet2.svg';
 import lottie from 'lottie-web';
 
 const Footer = () => {
@@ -16,6 +18,8 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <img src={footerPlanet} className="footer-planet" />
+      <img src={footerPlanet2} className="footer-planet2" />
       <div className="footer-parent">
         <div className="footer-child1">
           <div>
